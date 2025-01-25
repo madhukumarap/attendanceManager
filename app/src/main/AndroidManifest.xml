@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AttendenaceManager"
         tools:targetApi="31">
         <activity
+            android:name=".StudentEditor"
+            android:exported="false" />
+        <activity
+            android:name=".ClassEditor"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

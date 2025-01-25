@@ -39,15 +39,16 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/box_background"/>
         <ListView
+            android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="15dp"
             android:dividerHeight="15dp"
             android:layout_alignParentTop="true"
             android:layout_above="@+id/new_class"
-<!--            android:divider="@color/transparent"-->
-<!--            android:listSelector="@color/transparent"-->
              />
+        <!--            android:divider="@color/transparent"-->
+        <!--            android:listSelector="@color/transparent"-->
     </RelativeLayout>
 
 </LinearLayout>
